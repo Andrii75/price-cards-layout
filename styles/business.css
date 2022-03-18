@@ -1,0 +1,51 @@
+.price__card-blue {
+    background: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    width: 380px;
+    height: 770px;
+    margin: 0;
+    margin-top: 115px;
+    margin-left: 18px;
+    position: relative;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.price__card-popular {
+    position: absolute;
+    background: #DC3F45;
+    transform: rotate(-45deg);
+    width: 25px;
+    height: 147px;
+    top: -31px;
+    left: 325px;
+}
+
+.price__card-populartext {
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+    top: 66px;
+    right: -23px;
+}
+
+.price__card-backgroundblue {
+    width: 100%;
+    height: 105px;
+    margin-top: 33px;
+    background: #3A6BA5;
+}
+
+.price__card-orderblue {
+    background: #3A6BA5;
+    border-radius: 20px;
+    width: 154px;
+    height: 40px;
+    margin-top: 39px;
+    margin-left: 112px;
+}
