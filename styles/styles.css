@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 115px;
 }
 
 .price__title {
@@ -112,8 +113,6 @@ body {
   width: 380px;
   height: 770px;
   margin: 0;
-  margin-top: 115px;
-  margin-left: 132px;
 }
 .green__card-background {
   background-color: #5bb189;
@@ -136,7 +135,6 @@ body {
   width: 380px;
   height: 770px;
   margin: 0;
-  margin-top: 115px;
   margin-left: 18px;
   position: relative;
   text-overflow: clip;
@@ -188,7 +186,6 @@ body {
   width: 380px;
   height: 770px;
   margin: 0;
-  margin-top: 115px;
   margin-left: 18px;
 }
 
