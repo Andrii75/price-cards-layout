@@ -13,13 +13,13 @@ body {
   background: #141b1c;
 }
 
-.price {
+.price__tables {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 65px;
 }
-.price__title {
+.price__tables-title {
   font-weight: 700;
   font-size: 35px;
   line-height: 43px;
@@ -28,7 +28,7 @@ body {
   padding-top: 33px;
   margin: 0;
 }
-.price__info {
+.price__tables-info {
   display: block;
   margin: auto;
   font-weight: 300;
@@ -37,7 +37,7 @@ body {
   color: #ffffff;
   text-align: center;
 }
-.price__amount {
+.price__tables-amount {
   display: block;
   padding-top: 19px;
   font-weight: 700;
@@ -46,7 +46,7 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.price__description {
+.price__tables-description {
   display: block;
   margin: 0;
   padding: 40px 26px 40px 26px;
@@ -56,18 +56,18 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.price__card {
+.price__tables-card {
   display: flex;
   height: 50px;
 }
-.price__card-dark {
+.price__tables-card-dark {
   background: rgba(42, 52, 56, 0.5);
   mix-blend-mode: normal;
   width: 100%;
   height: 50px;
   display: flex;
 }
-.price__services {
+.price__tables-services {
   font-weight: 300;
   font-size: 15px;
   height: 18px;
@@ -75,7 +75,7 @@ body {
   padding-left: 22px;
   padding-top: 16px;
 }
-.price__order-text {
+.price__tables-order-text {
   display: block;
   font-weight: 400;
   font-size: 14px;
@@ -84,11 +84,11 @@ body {
   color: #ffffff;
   padding-top: 11px;
 }
-.price__card-greenicon {
+.price__tables-card-greenicon {
   width: 15px;
   height: 13px;
 }
-.price__card-icon {
+.price__tables-card-icon {
   padding-left: 22px;
   padding-top: 17px;
 }
