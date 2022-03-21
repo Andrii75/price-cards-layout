@@ -46,16 +46,6 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.price__tables-description {
-  display: block;
-  margin: 0;
-  padding: 40px 26px 40px 26px;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  color: #ffffff;
-}
 .price__tables-card {
   display: flex;
   height: 50px;
@@ -93,20 +83,33 @@ body {
   padding-top: 17px;
 }
 
-.table__card-green {
+.price-card__description {
+  display: block;
+  margin: 0;
+  padding: 40px 26px 40px 26px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bg__card-green {
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   width: 380px;
   height: 770px;
   margin: 0;
 }
-.table__card-background {
+
+.price-card__price:nth-child(2) {
   background-color: #5bb189;
   width: 100%;
   height: 105px;
   margin-top: 33px;
 }
-.table__card-order {
+
+.price-card__order-btn:nth-child(10) {
   background: #5bb189;
   border-radius: 20px;
   width: 154px;
@@ -115,7 +118,7 @@ body {
   margin-left: 112px;
 }
 
-.table {
+.bg {
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   width: 380px;
@@ -126,16 +129,7 @@ body {
   text-overflow: clip;
   overflow: hidden;
 }
-.table__popular {
-  position: absolute;
-  background: #dc3f45;
-  transform: rotate(-45deg);
-  width: 25px;
-  height: 147px;
-  top: -31px;
-  left: 325px;
-}
-.table__text {
+.bg__text {
   display: block;
   position: absolute;
   text-align: center;
@@ -147,13 +141,25 @@ body {
   top: 66px;
   right: -23px;
 }
-.table__background {
+
+.badge {
+  position: absolute;
+  background: #dc3f45;
+  transform: rotate(-45deg);
+  width: 25px;
+  height: 147px;
+  top: -31px;
+  left: 325px;
+}
+
+.price-card__price {
   background: #3a6ba5;
   width: 100%;
   height: 105px;
   margin-top: 33px;
 }
-.table__order {
+
+.price-card__order-btn:nth-child(12) {
   background: #3a6ba5;
   border-radius: 20px;
   width: 154px;
@@ -162,7 +168,7 @@ body {
   margin-left: 112px;
 }
 
-.table {
+.bg {
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   width: 380px;
@@ -170,19 +176,21 @@ body {
   margin: 0;
   margin-left: 18px;
 }
-:nth-child(3) .table__background {
-  width: 100%;
-  height: 105px;
-  background: #ec632a;
-  margin-top: 33px;
-}
-:nth-child(3) .table__order {
+
+.price-card__order-btn:nth-child(odd) {
   background: #ec632a;
   border-radius: 20px;
   width: 154px;
   height: 40px;
   margin-top: 39px;
   margin-left: 112px;
+}
+
+.price-card__price:nth-child(3) {
+  width: 100%;
+  height: 105px;
+  background: #ec632a;
+  margin-top: 33px;
 }
 
 /*# sourceMappingURL=styles.css.map */

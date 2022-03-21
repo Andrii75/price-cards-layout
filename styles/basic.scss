@@ -1,4 +1,4 @@
-.table {
+.bg {
     &__card-green {
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -6,19 +6,19 @@
         height: 770px;
         margin: 0;
     }
+}
+.price-card__price:nth-child(2) {
+    background-color: #5bb189;
+    width: 100%;
+    height: 105px;
+    margin-top: 33px;
+}
 
-    &__card-background {
-        background-color: #5bb189;
-        width: 100%;
-        height: 105px;
-        margin-top: 33px;
-    }
-    &__card-order {
-        background: #5bb189;
-        border-radius: 20px;
-        width: 154px;
-        height: 40px;
-        margin-top: 39px;
-        margin-left: 112px;
-    }
+.price-card__order-btn:nth-child(10) {
+    background: #5bb189;
+    border-radius: 20px;
+    width: 154px;
+    height: 40px;
+    margin-top: 39px;
+    margin-left: 112px;
 }

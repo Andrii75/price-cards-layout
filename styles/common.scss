@@ -46,16 +46,6 @@ body {
         text-align: center;
         color: #ffffff;
     }
-    &-description {
-        display: block;
-        margin: 0;
-        padding: 40px 26px 40px 26px;
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 18px;
-        text-align: center;
-        color: #ffffff;
-    }
     &-card {
         display: flex;
         height: 50px;
@@ -92,4 +82,14 @@ body {
         padding-left: 22px;
         padding-top: 17px;
     }
+}
+.price-card__description {
+    display: block;
+    margin: 0;
+    padding: 40px 26px 40px 26px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
 }
