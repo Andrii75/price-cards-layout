@@ -101,7 +101,7 @@ body {
   margin-top: 33px;
 }
 
-.price-card__order-btn:nth-child(10) {
+.price-card__order-btn:nth-child(5) {
   background: #5bb189;
   border-radius: 20px;
   width: 154px;
@@ -151,7 +151,7 @@ body {
   margin-top: 33px;
 }
 
-.price-card__order-btn:nth-child(12) {
+.price-card__order-btn:nth-child(7) {
   background: #3a6ba5;
   border-radius: 20px;
   width: 154px;
@@ -169,7 +169,7 @@ body {
   margin-left: 18px;
 }
 
-.price-card__order-btn:nth-child(odd) {
+.price-card__order-btn:nth-child(6) {
   background: #ec632a;
   border-radius: 20px;
   width: 154px;
